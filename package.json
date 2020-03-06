@@ -1,0 +1,22 @@
+{
+  "name": "tallerlpa",
+  "version": "1.0.0",
+  "description": "Repositorio actual del taller de lenguajes de programación aplicados",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoaguilar97/TallerLPA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoaguilar97/TallerLPA/issues"
+  },
+  "homepage": "https://github.com/leoaguilar97/TallerLPA#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
