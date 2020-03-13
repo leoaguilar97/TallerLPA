@@ -9,20 +9,18 @@
     <title>ASCMorse - Envia mensajes codificados</title>
 
     <!-- Font special for pages-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
 
     <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
-    
+    <link href="./css/main.css" rel="stylesheet" media="all">
+
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
     <script>
-        function enviarInfo(){
-
+        function enviarInfo() {
             var texto = $("#text").val();
-
             texto = texto.toLowerCase();
-            
             alert(texto);
         }
     </script>
@@ -45,7 +43,7 @@
 
                     <div class="card-footer">
                         <button class="btn btn--radius-2 btn--blue-2" onclick=" enviarInfo();">Enviar</button>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,4 +55,5 @@
     <!-- Main JS-->
     <script src="js/global.js"></script>
 </body>
+
 </html>
