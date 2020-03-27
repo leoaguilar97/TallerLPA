@@ -17,12 +17,16 @@ app.get("/report", (req, res) => {
     return res.sendFile(path.join(__dirname + '/WebApp/report.html'));
 });
 
-app.get("/asdfasdf", (req, res) => {
+app.get("/game", (req, res) => {
     return res.sendFile(path.join(__dirname + '/WebApp/game.html'));
 });
 
 app.get("/message", (req, res) => {
     return res.sendFile(path.join(__dirname + '/WebApp/message.html'));
+});
+
+app.get("/testapi", (req, res) => {
+    return res.json({ msg: "Conexion exitosa"});
 });
 
 //Iniciar la aplicación
